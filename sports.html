@@ -32,6 +32,36 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    .img-box {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Set a fixed height */
+      overflow: hidden;
+      /* Ensure images don’t overflow */
+    }
+
+    .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Ensures the image covers the entire box */
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(255, 0, 0, 0.7);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+
 </head>
 
 <body class="sub_page">
@@ -84,9 +114,8 @@
       <div class="heading_container heading_center">
         <h2>Sport Events</h2>
         <p>
-          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a
-          euismod suspendisse vel, sed quam nulla mauris iaculis. Erat eget
-          vitae malesuada, tortor tincidunt porta lorem lectus.
+          Register now for exciting sports competitions! Click on the event of your choice and secure your spot. Don't
+          miss out!
         </p>
       </div>
       <div class="row">
@@ -122,15 +151,32 @@
           </a>
         </div>
         <div class="col-md-4 col-sm-6 mx-auto">
-          <a href="https://forms.gle/CtJ3XAEfwDfLPKgY9" target="_blank" style="text-decoration: none; color: inherit">
-
+          <a href="https://forms.gle/nAvBTMteTLejmdiG9" target="_blank" style="text-decoration: none; color: inherit">
             <div class="box">
-              <div class="img-box">
-                <img src="https://www.bishopwilkins.co.uk/wp-content/uploads/2012/03/chess-300x300.jpg" alt="" />
+              <div class="img-box" style="position: relative;">
+                <img src="https://www.emulatorpc.com/wp-content/uploads/2021/08/carrom-pool-free-full-version.jpg.webp"
+                  alt="" style="width: 100%; height: auto;" />
+                <div class="overlay-text">Registrations close today</div>
+              </div>
+              <div class="detail-box">
+                <h5>Carrom</h5>
+                <h6 class="">Doubles</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <a href="https://forms.gle/CtJ3XAEfwDfLPKgY9" target="_blank" style="text-decoration: none; color: inherit">
+            <div class="box">
+              <div class="img-box" style="position: relative;">
+                <img src="https://www.bishopwilkins.co.uk/wp-content/uploads/2012/03/chess-300x300.jpg" alt=""
+                  style="width: 100%; height: auto;" />
+                <div class="overlay-text">Registrations close today</div>
               </div>
               <div class="detail-box">
                 <h5>Chess</h5>
-                <h6 class="">Tourament</h6>
+                <h6 class="">Tournament</h6>
               </div>
             </div>
           </a>
@@ -149,49 +195,56 @@
             </div>
           </a>
         </div>
+
+
         <div class="col-md-4 col-sm-6 mx-auto">
-          <a href="https://forms.gle/nAvBTMteTLejmdiG9" target="_blank" style="text-decoration: none; color: inherit">
+          <a href="https://forms.gle/CtJ3XAEfwDfLPKgY9" target="_blank" style="text-decoration: none; color: inherit">
+            <div class="box">
+              <div class="img-box">
+                <img src="https://www.cokogames.com/wp-content/uploads/2019/04/athletics-race.jpg" alt=""
+                  style="width: 100%; height: auto;" />
+
+              </div>
+              <div class="detail-box">
+                <h5>100m Running </h5>
+                <h6 class="">Race</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <a href="https://forms.gle/dCdAWMdKiFCKzJHr7" target="_blank" style="text-decoration: none; color: inherit">
 
             <div class="box">
               <div class="img-box">
-                <img src="https://www.emulatorpc.com/wp-content/uploads/2021/08/carrom-pool-free-full-version.jpg.webp"
+                <img
+                  src="data:image/jpeg;base64,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"
                   alt="" />
               </div>
               <div class="detail-box">
-                <h5>Carrom</h5>
+                <h5>200m Running </h5>
+                <h6 class="">Relay</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <a href="https://forms.gle/fZuNXkNh3p8JGK8D8" target="_blank" style="text-decoration: none; color: inherit">
+            <div class="box">
+              <div class="img-box">
+                <img src="https://s.alicdn.com/@sc04/kf/H120862048ac4490580a72ad2847ad2edB.png_300x300.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Badminton</h5>
                 <h6 class="">Doubles</h6>
               </div>
+            </div>
           </a>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6 mx-auto">
-        <a href="https://forms.gle/CtJ3XAEfwDfLPKgY9" target="_blank" style="text-decoration: none; color: inherit">
-
-          <div class="box">
-            <div class="img-box">
-              <img src="https://www.cokogames.com/wp-content/uploads/2019/04/athletics-race.jpg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>100m Relay</h5>
-              <h6 class="">Race</h6>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 mx-auto">
-        <a href="https://forms.gle/fZuNXkNh3p8JGK8D8" target="_blank" style="text-decoration: none; color: inherit">
-          <div class="box">
-            <div class="img-box">
-              <img src="https://s.alicdn.com/@sc04/kf/H120862048ac4490580a72ad2847ad2edB.png_300x300.jpg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>Badminton</h5>
-              <h6 class="">Doubles</h6>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
     </div>
   </section>
 
